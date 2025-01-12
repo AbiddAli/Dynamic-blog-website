@@ -1,19 +1,16 @@
-import Banner from '@/components/banner'
 import Highlighted from '@/components/highlighted'
 import LatestBlogs from '@/components/latestblog'
 import Tech from '@/components/tech'
 import React from 'react'
 
-const Home = () => {
+const blogPage = () => {
   return (
-    <div>
-      <Banner />
-      <LatestBlogs/>
-      <Highlighted/>
-      <Tech/>
-    </div>
+      <>
+          <LatestBlogs />
+          <Highlighted />
+          <Tech />
+      </>
   )
 }
 
-export default Home
-
+export default blogPage
